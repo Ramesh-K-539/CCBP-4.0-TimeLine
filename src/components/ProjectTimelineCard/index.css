@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+.project-card-container {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.project-image {
+  height: 280px;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title {
+  color: #171f46;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.calender-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.calender-icon {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.duration {
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.visit-text {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0967d2;
+  font-size: 19px;
+  font-weight: 500;
+}

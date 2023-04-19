@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.course-bg-container {
+  width: 550px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-title {
+  color: #171f46;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clock-icon {
+  height: 22px;
+  width: 22px;
+  margin-right: 10px;
+}
+
+.duration {
+  color: #171f46;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.description {
+  color: #b1b9cc;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.ul-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.list-item {
+  list-style-type: none;
+  padding: 8px;
+  background-color: #e1ebea;
+  color: #171f46;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
